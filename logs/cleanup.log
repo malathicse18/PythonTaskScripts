@@ -1,0 +1,12 @@
+DEBUG:root:Starting delete_files with directory=C:\Users\malatk\Videos\PythonTasks\democlean, age=None, size=None, file_type=.pdf, archive=False
+DEBUG:root:Checking file: archive
+DEBUG:root:Checking file: demo.pdf
+DEBUG:root:File demo.pdf is of type .pdf
+DEBUG:root:Logged deletion to MongoDB: {'filename': 'demo.pdf', 'filepath': 'C:\\Users\\malatk\\Videos\\PythonTasks\\democlean\\demo.pdf', 'deleted_at': '2025-02-11T09:48:16Z', 'reason': 'File type .pdf', 'size_MB': 0.0, '_id': ObjectId('67ab1ce08792f5c63248d091')}
+INFO:root:Deleted demo.pdf: File type .pdf
+DEBUG:root:Starting delete_files with directory=C:\Users\malatk\Videos\PythonTasks\democlean, age=None, size=None, file_type=.pdf, archive=False
+DEBUG:root:Checking file: archive
+DEBUG:root:Checking file: demo.pdf
+DEBUG:root:File demo.pdf is of type .pdf
+DEBUG:root:Logged deletion to MongoDB: {'filename': 'demo.pdf', 'filepath': 'C:\\Users\\malatk\\Videos\\PythonTasks\\democlean\\demo.pdf', 'deleted_at': '2025-02-11T09:49:56Z', 'reason': 'File type .pdf', 'size_MB': 0.0, '_id': ObjectId('67ab1d443058a48262d9457c')}
+INFO:root:Deleted demo.pdf: File type .pdf
