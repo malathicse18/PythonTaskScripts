@@ -10,3 +10,21 @@ DEBUG:root:Checking file: demo.pdf
 DEBUG:root:File demo.pdf is of type .pdf
 DEBUG:root:Logged deletion to MongoDB: {'filename': 'demo.pdf', 'filepath': 'C:\\Users\\malatk\\Videos\\PythonTasks\\democlean\\demo.pdf', 'deleted_at': '2025-02-11T09:49:56Z', 'reason': 'File type .pdf', 'size_MB': 0.0, '_id': ObjectId('67ab1d443058a48262d9457c')}
 INFO:root:Deleted demo.pdf: File type .pdf
+DEBUG:root:Logged compression to MongoDB: {'compressed_filename': 'no.zip', 'compression_format': 'zip', 'original_size_MB': 0.0010232925415039062, 'compressed_size_MB': 0.0008382797241210938, 'compressed_at': '2025-02-11T11:35:18Z', '_id': ObjectId('67ab35f6e43dc42b7205fc97')}, Inserted ID: 67ab35f6e43dc42b7205fc97
+INFO:root:\u2705 Files compressed into: C:\Users\malatk\Videos\PythonTasks\compression\no.zip
+DEBUG:root:Logged compression to MongoDB: {'compressed_filename': '2.zip', 'compression_format': 'zip', 'original_size_MB': 0.0010232925415039062, 'compressed_size_MB': 0.0013856887817382812, 'compressed_at': '2025-02-11T11:39:00Z', '_id': ObjectId('67ab36d401d6aaaf31b683f6')}, Inserted ID: 67ab36d401d6aaaf31b683f6
+INFO:root:\u2705 Files compressed into: C:\Users\malatk\Videos\PythonTasks\compression\2.zip
+DEBUG:root:Logged compression to MongoDB: {'compressed_filename': '2.zip', 'compression_format': 'zip', 'original_size_MB': 0.002490997314453125, 'compressed_size_MB': 0.0014677047729492188, 'compressed_at': '2025-02-11T11:41:41Z', '_id': ObjectId('67ab377581b15503f67f2969')}, Inserted ID: 67ab377581b15503f67f2969
+INFO:root:\u2705 Files compressed into: C:\Users\malatk\Videos\PythonTasks\compression\2.zip
+DEBUG:compression:Logged compression to MongoDB: {'compressed_filename': '3.zip', 'compression_format': 'zip', 'original_size_MB': 0.002490997314453125, 'compressed_size_MB': 0.0029354095458984375, 'compressed_at': '2025-02-11T11:44:10Z', '_id': ObjectId('67ab380ae3be4376939fa810')}, Inserted ID: 67ab380ae3be4376939fa810
+INFO:compression:\u2705 Files compressed into: C:\Users\malatk\Videos\PythonTasks\compression\3.zip
+DEBUG:root:Logged compression to MongoDB: {'compressed_filename': 'no.zip', 'compression_format': 'zip', 'original_size_MB': 0.014463424682617188, 'compressed_size_MB': 0.009875297546386719, 'compressed_at': '2025-02-11T11:45:55Z', '_id': ObjectId('67ab387318b055356aac6b7c')}, Inserted ID: 67ab387318b055356aac6b7c
+INFO:root:\u2705 Files compressed into: C:\Users\malatk\Videos\PythonTasks\compression\no.zip
+DEBUG:root:Logged compression to MongoDB: {'compressed_filename': 'f.zip', 'compression_format': 'zip', 'original_size_MB': 0.014463424682617188, 'compressed_size_MB': 0.014989852905273438, 'compressed_at': '2025-02-11T11:47:48Z', '_id': ObjectId('67ab38e4099c6a2a34f7687a')}, Inserted ID: 67ab38e4099c6a2a34f7687a
+INFO:root:\u2705 Files compressed into: C:\Users\malatk\Videos\PythonTasks\compression\f.zip
+DEBUG:root:Logged compression to MongoDB: {'compressed_filename': 'mahi1.zip', 'compression_format': 'zip', 'original_size_MB': 0.029453277587890625, 'compressed_size_MB': 0.030061721801757812, 'compressed_at': '2025-02-11T12:36:27Z', '_id': ObjectId('67ab444b9e44b8dd62da4939')}, Inserted ID: 67ab444b9e44b8dd62da4939
+INFO:root:\u2705 Files compressed into: C:\Users\malatk\Videos\PythonTasks\compression\mahi1.zip
+DEBUG:root:Logged compression to MongoDB: {'compressed_filename': 'tamil.zip', 'compression_format': 'zip', 'original_size_MB': 0.05951499938964844, 'compressed_size_MB': 0.06021308898925781, 'compressed_at': '2025-02-11T12:41:26Z', '_id': ObjectId('67ab457694b6920e980bcaaf')}, Inserted ID: 67ab457694b6920e980bcaaf
+INFO:root:\u2705 Files compressed into: C:\Users\malatk\Videos\PythonTasks\compression\tamil.zip
+DEBUG:compression:Logged compression to MongoDB: {'compressed_filename': 'amma.zip', 'compression_format': 'zip', 'original_size_MB': 0.11972808837890625, 'compressed_size_MB': 0.12051582336425781, 'compressed_at': '2025-02-11T14:47:13Z', '_id': ObjectId('67ab62f12741f92674d1b673')}, Inserted ID: 67ab62f12741f92674d1b673
+INFO:compression:\u2705 Files compressed into: C:\Users\malatk\Videos\PythonTasks\compression\amma.zip
